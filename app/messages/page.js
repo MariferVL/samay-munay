@@ -1,6 +1,6 @@
-import AnonymousMessages from './AnonymousMessages';
-import MessageForm from './MessageForm';
-import Responses from './Responses';
+import AnonymousMessages from './components/AnonymousMessages';
+import MessageForm from './components/MessageForm';
+import Responses from './components/Responses';
 
 // Main component for the Messages page
 const MessagesPage = () => {
