@@ -1,0 +1,151 @@
+[debug] [2024-11-01T23:41:21.719Z] ----------------------------------------------------------------------
+[debug] [2024-11-01T23:41:21.754Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mfvl1\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-11-01T23:41:21.755Z] CLI Version:   13.23.1
+[debug] [2024-11-01T23:41:21.755Z] Platform:      win32
+[debug] [2024-11-01T23:41:21.755Z] Node Version:  v22.1.0
+[debug] [2024-11-01T23:41:21.755Z] Time:          Fri Nov 01 2024 20:41:21 GMT-0300 (hora de verano de Chile)
+[debug] [2024-11-01T23:41:21.756Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-01T23:41:21.791Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-01T23:41:21.792Z] > authorizing via signed-in user (marifervl.dev@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\mfvl1\Projects\Practice\samay-munay
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-11-01T23:41:46.334Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:41:46.335Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:41:46.338Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-11-01T23:41:47.302Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-11-01T23:41:47.302Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project sanacion-33 (Samay Munay app) 
+[info] 
+=== Firestore Setup
+[debug] [2024-11-01T23:41:50.200Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:41:50.200Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:41:50.201Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/sanacion-33/services/firestore.googleapis.com [none]
+[debug] [2024-11-01T23:41:50.201Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/sanacion-33/services/firestore.googleapis.com x-goog-quota-user=projects/sanacion-33
+[debug] [2024-11-01T23:41:51.297Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/sanacion-33/services/firestore.googleapis.com 200
+[debug] [2024-11-01T23:41:51.298Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/sanacion-33/services/firestore.googleapis.com [omitted]
+[debug] [2024-11-01T23:41:51.298Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:41:51.298Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:41:51.299Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/sanacion-33/databases/(default) [none]
+[debug] [2024-11-01T23:41:52.628Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/sanacion-33/databases/(default) 200
+[debug] [2024-11-01T23:41:52.628Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/sanacion-33/databases/(default) {"name":"projects/sanacion-33/databases/(default)","uid":"560a9d6f-5296-41e0-b9a8-933c0b3c01c7","createTime":"2024-11-01T23:36:43.975924Z","updateTime":"2024-11-01T23:36:43.975924Z","locationId":"europe-west2","type":"FIRESTORE_NATIVE","concurrencyMode":"PESSIMISTIC","versionRetentionPeriod":"3600s","earliestVersionTime":"2024-11-01T23:36:43.975924Z","appEngineIntegrationMode":"DISABLED","keyPrefix":"g","pointInTimeRecoveryEnablement":"POINT_IN_TIME_RECOVERY_DISABLED","deleteProtectionState":"DELETE_PROTECTION_DISABLED","etag":"IIOLgNanvIkDMPT58MKmvIkD"}
+[debug] [2024-11-01T23:41:52.628Z] database_type: FIRESTORE_NATIVE
+[debug] [2024-11-01T23:41:52.628Z] database_type: FIRESTORE_NATIVE
+[debug] [2024-11-01T23:41:52.629Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-01T23:41:52.629Z] > authorizing via signed-in user (marifervl.dev@gmail.com)
+[debug] [2024-11-01T23:41:52.630Z] [iam] checking project sanacion-33 for permissions ["firebase.projects.get"]
+[debug] [2024-11-01T23:41:52.630Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:41:52.631Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:41:52.631Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/sanacion-33:testIamPermissions [none]
+[debug] [2024-11-01T23:41:52.631Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/sanacion-33:testIamPermissions x-goog-quota-user=projects/sanacion-33
+[debug] [2024-11-01T23:41:52.631Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/sanacion-33:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-11-01T23:41:53.637Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/sanacion-33:testIamPermissions 200
+[debug] [2024-11-01T23:41:53.638Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/sanacion-33:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2024-11-01T23:41:59.737Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:41:59.737Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:41:59.737Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/sanacion-33/releases pageSize=10&pageToken=
+[debug] [2024-11-01T23:42:00.684Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/sanacion-33/releases 200
+[debug] [2024-11-01T23:42:00.685Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/sanacion-33/releases {"releases":[{"name":"projects/sanacion-33/releases/cloud.firestore","rulesetName":"projects/sanacion-33/rulesets/a26b7b78-2a60-4f24-a6cd-09b620463680","createTime":"2024-11-01T23:36:51.773540Z","updateTime":"2024-11-01T23:36:51.773540Z"}]}
+[debug] [2024-11-01T23:42:00.685Z] Found ruleset: projects/sanacion-33/rulesets/a26b7b78-2a60-4f24-a6cd-09b620463680
+[debug] [2024-11-01T23:42:00.685Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:42:00.685Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:42:00.686Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/sanacion-33/rulesets/a26b7b78-2a60-4f24-a6cd-09b620463680 [none]
+[debug] [2024-11-01T23:42:01.696Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/sanacion-33/rulesets/a26b7b78-2a60-4f24-a6cd-09b620463680 200
+[debug] [2024-11-01T23:42:01.696Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/sanacion-33/rulesets/a26b7b78-2a60-4f24-a6cd-09b620463680 [omitted]
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2024-11-01T23:42:04.699Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:42:04.699Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:42:04.699Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:42:04.699Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:42:04.699Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/sanacion-33/databases/(default)/collectionGroups/-/indexes [none]
+[debug] [2024-11-01T23:42:04.701Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/sanacion-33/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* [none]
+[debug] [2024-11-01T23:42:06.012Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/sanacion-33/databases/(default)/collectionGroups/-/indexes 200
+[debug] [2024-11-01T23:42:06.012Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/sanacion-33/databases/(default)/collectionGroups/-/indexes {}
+[debug] [2024-11-01T23:42:06.161Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/sanacion-33/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* 200
+[debug] [2024-11-01T23:42:06.161Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/sanacion-33/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* {"fields":[{"name":"projects/sanacion-33/databases/(default)/collectionGroups/__default__/fields/*","indexConfig":{"indexes":[{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"ASCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"DESCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","arrayConfig":"CONTAINS"}],"state":"READY"}]}}]}
+[info] 
+=== Functions Setup
+[debug] [2024-11-01T23:42:06.165Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-01T23:42:06.166Z] > authorizing via signed-in user (marifervl.dev@gmail.com)
+[debug] [2024-11-01T23:42:06.166Z] [iam] checking project sanacion-33 for permissions ["firebase.projects.get"]
+[debug] [2024-11-01T23:42:06.166Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:42:06.166Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:42:06.166Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/sanacion-33:testIamPermissions [none]
+[debug] [2024-11-01T23:42:06.166Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/sanacion-33:testIamPermissions x-goog-quota-user=projects/sanacion-33
+[debug] [2024-11-01T23:42:06.166Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/sanacion-33:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-11-01T23:42:07.047Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/sanacion-33:testIamPermissions 200
+[debug] [2024-11-01T23:42:07.048Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/sanacion-33:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-11-01T23:42:07.049Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:42:07.049Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:42:07.049Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:42:07.049Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:42:07.049Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/sanacion-33/services/cloudfunctions.googleapis.com [none]
+[debug] [2024-11-01T23:42:07.049Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/sanacion-33/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/sanacion-33
+[debug] [2024-11-01T23:42:07.054Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/sanacion-33/services/runtimeconfig.googleapis.com [none]
+[debug] [2024-11-01T23:42:07.054Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/sanacion-33/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/sanacion-33
+[debug] [2024-11-01T23:42:08.014Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/sanacion-33/services/runtimeconfig.googleapis.com 200
+[debug] [2024-11-01T23:42:08.014Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/sanacion-33/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2024-11-01T23:42:08.024Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/sanacion-33/services/cloudfunctions.googleapis.com 200
+[debug] [2024-11-01T23:42:08.024Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/sanacion-33/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2024-11-01T23:42:08.024Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:42:08.024Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:42:08.024Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/sanacion-33/services/cloudfunctions.googleapis.com:enable [none]
+[debug] [2024-11-01T23:42:08.024Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/sanacion-33/services/cloudfunctions.googleapis.com:enable x-goog-quota-user=projects/sanacion-33
+[debug] [2024-11-01T23:42:08.456Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/sanacion-33/services/cloudfunctions.googleapis.com:enable 200
+[debug] [2024-11-01T23:42:08.457Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/sanacion-33/services/cloudfunctions.googleapis.com:enable [omitted]
+[debug] [2024-11-01T23:42:18.466Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:42:18.467Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:42:18.467Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/sanacion-33/services/cloudfunctions.googleapis.com [none]
+[debug] [2024-11-01T23:42:18.467Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/sanacion-33/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/sanacion-33
+[debug] [2024-11-01T23:42:19.561Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/sanacion-33/services/cloudfunctions.googleapis.com 200
+[debug] [2024-11-01T23:42:19.561Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/sanacion-33/services/cloudfunctions.googleapis.com [omitted]
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[info] +  Wrote functions/package.json 
+[info] +  Wrote functions/index.js 
+[info] +  Wrote functions/.gitignore 
+[info] 
+=== Hosting Setup
+[debug] [2024-11-01T23:43:21.553Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:43:21.553Z] Checked if tokens are valid: true, expires at: 1730507050106
+[debug] [2024-11-01T23:43:21.553Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sanacion-33 [none]
+[debug] [2024-11-01T23:43:21.825Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/sanacion-33 200
+[debug] [2024-11-01T23:43:21.825Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/sanacion-33 {"projectId":"sanacion-33","projectNumber":"734190351220","displayName":"Samay Munay app","name":"projects/sanacion-33","resources":{"hostingSite":"sanacion-33"},"state":"ACTIVE","etag":"1_b2abcf50-6980-4e3d-ad47-fad932d26bd8"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
