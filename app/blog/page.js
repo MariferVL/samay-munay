@@ -1,14 +1,12 @@
-import BlogPost from '../../components/BlogPost';
+import PostPage from './[postId]/page';
 
-const Blog = ({ posts }) => {
-  return (
-    <section className="container mx-auto p-6">
-      <h1 className="text-3xl font-merriweather text-ocre-claro mb-6">Bitácora</h1>
-      {posts.map((post) => (
-        <BlogPost key={post.id} title={post.title} date={post.date} content={post.content} />
-      ))}
-    </section>
-  );
-};
+export default async function Page() {
+  const posts = await fetchPosts(); 
+  return <PostPage posts={posts} />;
+}
 
-export default Blog;
+async function fetchPosts() {
+  const response = await fetch('your-api-endpoint'); 
+  const data = await response.json();
+  return data;
+}
